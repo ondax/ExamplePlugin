@@ -10,12 +10,13 @@ namespace ExamplePlugin
 {
     class ExampleCommand : CommandHandler
     {
+        //command
         public string Command => "examplecommand";
-
+        //command usage
         public string Usage => "examplecommand";
-
+        //command aliases
         public string Aliases => "ec example";
-
+        //What to do when command is used
         public string Execute(Player sender, string[] args)
         {
             return "Your SID is: " + sender.UserId;

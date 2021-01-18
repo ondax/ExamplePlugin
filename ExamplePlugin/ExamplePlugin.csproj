@@ -46,8 +46,12 @@
     <Reference Include="Vigilance">
       <HintPath>..\..\repos_\Dependencies\Vigilance.dll</HintPath>
     </Reference>
+    <Reference Include="YamlConfig">
+      <HintPath>..\..\repos_\Dependencies\YamlConfig.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExampleCommand.cs" />
     <Compile Include="ExamplePlugin.cs" />
     <Compile Include="HandlerExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
